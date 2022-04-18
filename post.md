@@ -1074,7 +1074,82 @@ export class AppmenuComponent implements OnInit {
 </aside>
 ````
 
-### Step 4 - Bringing it all together
+### Step 4 - Adding footer and appsettings
+
+* go through the same steps above to add footer and appsettings components and pasete the respective codes
+
+````
+yarn ng generate component appfooter
+````
+
+```` ts
+
+// appfooter.component.ts
+
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-appfooter',
+  templateUrl: './appfooter.component.html',
+  styleUrls: ['./appfooter.component.scss']
+})
+export class AppfooterComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
+````
+
+```` html
+<!--appfooter.component.html -->
+
+<footer class="main-footer">
+    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
+    All rights reserved.
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 3.2.0
+    </div>
+  </footer>
+````
+
+```` ts
+yarn ng generate component appsetting
+````
+
+```` ts
+// appsetting.component.ts
+
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-appsetting',
+  templateUrl: './appsetting.component.html',
+  styleUrls: ['./appsetting.component.scss']
+})
+export class AppsettingComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
+
+````
+
+```` html
+<!--appsetting.component.html -->
+
+<aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+
+````
+
+### Step 5 - Bringing it all together
 
 * Open the `index.html` in the root folder file and and modify as follows.
 
@@ -1177,6 +1252,7 @@ export class AppComponent {
   </ng-template>
 ````
 
+### Finally run and serve the application
 
 ## Source Code
 
