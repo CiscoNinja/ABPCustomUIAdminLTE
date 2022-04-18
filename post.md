@@ -1152,7 +1152,7 @@ export class AppComponent {
 
 ````
 
-* Open the `app.component.html` file.
+* Create and open the `app.component.html` file.
 * Replace the content with the following code:
 
 ````html
