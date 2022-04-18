@@ -1,0 +1,18 @@
+<div *ngIf="(currentUser$ | async)?.isAuthenticated; else noSidebar">
+    <app-appheader></app-appheader>
+    <app-appmenu></app-appmenu>
+    <div class="content-wrapper">
+        <section class="content">
+            <div class="container-fluid">
+                <router-outlet></router-outlet>
+            </div>
+        </section>
+    </div>
+    <app-appfooter></app-appfooter>
+    <app-appsetting></app-appsetting>
+    
+</div>
+
+<ng-template #noSidebar>
+    <router-outlet></router-outlet>
+  </ng-template>

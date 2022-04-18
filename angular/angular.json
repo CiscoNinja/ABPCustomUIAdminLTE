@@ -65,9 +65,18 @@
                 "inject": true,
                 "bundleName": "bootstrap-ltr.min"
               },
+              {
+                "input": "src/assets/dist/css/adminlte.min.css",
+                "inject": true,
+                "bundleName": "adminlte.min"
+              },
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/plugins/jquery/jquery.min.js",
+              "src/assets/plugins/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/dist/js/adminlte.min.js"
+            ]
           },
           "configurations": {
             "production": {

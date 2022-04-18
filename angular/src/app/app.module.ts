@@ -13,6 +13,11 @@ import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { APP_ROUTE_PROVIDER } from './route.provider';
+import { AppheaderComponent } from './appheader/appheader.component';
+import { AppmenuComponent } from './appmenu/appmenu.component';
+import { AppfooterComponent } from './appfooter/appfooter.component';
+import { AppsettingComponent } from './appsetting/appsetting.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   imports: [
@@ -29,8 +34,9 @@ import { APP_ROUTE_PROVIDER } from './route.provider';
     TenantManagementConfigModule.forRoot(),
     SettingManagementConfigModule.forRoot(),
     ThemeBasicModule.forRoot(),
+    SharedModule,
   ],
-  declarations: [AppComponent],
+  declarations: [AppComponent, AppheaderComponent, AppmenuComponent, AppfooterComponent, AppsettingComponent],
   providers: [APP_ROUTE_PROVIDER],
   bootstrap: [AppComponent],
 })
