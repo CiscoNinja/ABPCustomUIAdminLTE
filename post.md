@@ -14,17 +14,11 @@ We are only *Literaly* serving the AdminLTE UI on top of our angular UI.
 
 Here, the pages of the final application.
 
-**Home Page - Event List**
+![home page](home.png)
 
-![event-list-ui](images/event-list-ui.png)
+![account settings](account_setting.png)
 
-**Creating a new Event**
-
-![event-create-ui](images/event-create-ui.png)
-
-**Event Detail Page**
-
-![event-detail-ui](images/event-detail-ui.png)
+![roles](roles.png)
 
 ## Requirements
 
