@@ -1170,7 +1170,7 @@ export class AppComponent {
     <app-appsetting></app-appsetting>
     
 </div>
-<-- to make sure sidebar is hidden when logged out-->
+<!-- to make sure sidebar is hidden when logged out-->
 <ng-template #noSidebar>
     <router-outlet></router-outlet>
   </ng-template>
