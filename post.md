@@ -1170,7 +1170,7 @@ export class AppComponent {
     <app-appsetting></app-appsetting>
     
 </div>
-
+<-- to make sure sidebar is hidden when logged out-->
 <ng-template #noSidebar>
     <router-outlet></router-outlet>
   </ng-template>
@@ -1179,4 +1179,4 @@ export class AppComponent {
 
 ## Source Code
 
-Source code of the completed application is [available on GitHub](https://github.com/abpframework/abp-samples/tree/master/EventOrganizer).
+Source code of the completed application is [available on GitHub](https://github.com/CiscoNinja/ABPCustomUIAdminLTE).
