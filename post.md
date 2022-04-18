@@ -278,7 +278,7 @@ function snq(arg0: () => any): any {
 
 ````
 
-* And finally add these line of code to the tail or wherever you see fit of the `appheader.component.html` file 
+* And finally add these line of code to the tail or wherever you see fit inside the `<nav></nav>` tag of the `appheader.component.html` file 
 > these lines adds the `Admin` and `language` UI dropdows to the nav element
 
 ````html
