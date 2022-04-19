@@ -510,7 +510,7 @@ a.note-dropdown-item:hover {
     right: 0;
     top: 0;
     bottom: 0;
-    z-index: 1050;
+    z-index: 10050;
     -webkit-opacity: 1;
     -khtml-opacity: 1;
     -moz-opacity: 1;
@@ -1028,7 +1028,7 @@ a.note-dropdown-item:hover {
     top: 0;
     left: 0;
     width: 100% !important;
-    z-index: 1050;
+    z-index: 100000;
 }
 .note-editor.note-frame.fullscreen .note-resizebar,
 .note-editor.note-airframe.fullscreen .note-resizebar {
